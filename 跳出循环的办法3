@@ -1,0 +1,7 @@
+# day.2
+number = [3, 7, 6, 4, 8]
+for num in number:
+    if num<=5:
+        continue
+    print(num)    
+    
