@@ -1,0 +1,6 @@
+# day.2
+wordList = ["cherry", "lemon", "apricot", "blueberry", "durian", "grape", "apple"]
+for fruit in wordList:
+    if fruit[0]=="a":
+        print(fruit)
+        break
