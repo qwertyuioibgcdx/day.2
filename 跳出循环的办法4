@@ -1,0 +1,6 @@
+# day.2
+names = ["James", "Tony", "LiLei", "HanMeimei", "Pony"]
+for name in names:
+    if name==names[3]:
+        break
+    print(name)   
