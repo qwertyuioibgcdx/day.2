@@ -1,0 +1,26 @@
+# day.2
+melonList = [4, 3.5, 2, 5, 6, 3, 4.7, 5.3]
+sum=0
+melonWeight=[]
+for num in melonList:
+    if sum==3:
+        break
+    else:        
+        if num<4:
+          
+            continue 
+        else: 
+            melonWeight.append(num)
+            sum=sum+1
+print(melonWeight)  
+total=15
+peopleNumber=0
+numbers=[2,4,3,5,2,2,3,5,2,4]
+for num in numbers:
+    i=total//num
+    if i!=0:
+        total=total-num 
+        peopleNumber=peopleNumber+1 
+print(f"有{peopleNumber}个人可以买到牛奶")    
+
+        
